@@ -1,0 +1,11 @@
+	button#copy-btn {
+    	position: absolute;
+    	right: 35;
+        top: 55;
+	}
+    
+    span#coppied-message{
+    	position: absolute;
+        right: 35;
+    	top: 20;
+    }

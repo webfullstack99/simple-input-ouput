@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS LIBRARY -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- HTML ============================== -->
+</head>
+
+<body>
+    <div class="wrapper p-3">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 mt-2">
+                    <div class="row">
+
+                        <div class="col-sm-6">
+                            <p class="lead">Input</p>
+                            <textarea placeholder="" id="area-input" class="form-control" rows="2"></textarea>
+                            <button id="submit-btn" class="btn btn-primary mt-2">Submit</button>
+                        </div>
+
+                        <div class="col-sm-6 position-relative">
+                            <p class="lead">Output </p>
+                            <button title="Copy" class="btn btn-success btn-sm p-1 m-0" disabled="disabled"
+                                id="copy-btn">
+                                <span class="fa fa-clone"></span>
+                            </button>
+                            <span id="coppied-message" class="d-none text-success">Coppied!</span>
+                            <textarea id="area-output" disabled class="form-control pr-4" rows="2"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JAVASCRIPT LIBRARY -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./myjs.js"></script>
+
+</body>
+
+</html>
